@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8" />
@@ -45,38 +45,10 @@
                                 })();
                             </script>
                             
-    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/fuse.js"></script>
-    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/ejs.min.js"></script>
-    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/gridea-search.min.js"></script>
-    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/example/assets/media/gridea-search/result-template.ejs" type="text/ejs"></script>
-    <style>
-            .main_ {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                height: 90vh;
-            }
-            
-            .result-box {
-                margin-top: 50px;
-                display: flex;
-                border-radius: 5px;
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        </style>
 </head>
 
 <body>
-    <style>
-        .searched-keyword {
-            background-color: green;
-        }
-    </style>
-    <div class="main_">
+    <div class="wrapper">
         <header>
     <nav class="navbar">
         <div class="container">
@@ -183,15 +155,86 @@
 
     }
 </script>
-            <div class="result-box">
-                <div id="gridea-search-result">
-                    <p class="searching">搜索中......</p>
-                    <p class="no-result" style="display:none">未搜索到相关文章</p>
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                水彩
+                            </h1>
+                            
+                                    <!--zh-->
+                                    <div class="post-meta zh">
+                                        &#x4F5C;&#x8005;:
+                                        <a itemprop="author" rel="author" href="/">
+                                            💤 Wa.Phil
+                                        </a>
+                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2021-09-13</a></span>
+                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
+                                    href="#">0.0
+                                    &#x5206;&#x949F;</a></span>
+                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">0</a></span>
+                                        
+                                    </div>
+                                    
+                        </header>
+                        
+                        <div class="post-content">
+                            <figure data-type="image" tabindex="1"><img src="https://philixz.github.io/post-images/1631496215015.jpg" alt="" loading="lazy"></figure>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                
+                            </div>
+                            
+                                
+                                                    
+                                                                    <!--Share-->
+                                                                    <span style="margin-right:15px">
+                        <i class="post-share"></i>
+                        <span>&#x5206;&#x4EAB;:</span>
+                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://philixz.github.io/post/shui-cai/"><i class="fa fa-qrcode"></i></a>
+                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://philixz.github.io/post/shui-cai/&sharesource=qzone&title=水彩&pics=https://philixz.github.io/images/avatar.png?v=1631496216664&summary="><i class="fa fa-qq"></i></a>
+                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://philixz.github.io/post/shui-cai/&sharesource=weibo&title=水彩 + " - " + &pic="https://philixz.github.io/images/avatar.png?v=1631496216664 "><i class="fa fa-weibo "></i></a>
+
+                                                                    </span>
+                                                                    
+                                                                            <!--zh-->
+                                                                            <section class="post-tags zh ">
+                                                                                <div>
+                                                                                    <span>&#x6807;&#x7B7E;:</span>
+                                                                                    <span class="tag ">
+                        
+                                </span>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <a href="javascript:window.history.back();">
+                        &#x8FD4;&#x56DE;</a>
+                                                                                    <span>&dot;</span>
+                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
+                                                                                </div>
+                                                                            </section>
+
+                                                                            
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://philixz.github.io/post/shu-ji-feng-mian/">
+                                                                                                    书籍封面
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
                 </div>
+                
+                                            
             </div>
     </div>
-</body>
-
+    </div>
+    </div>
+    
         <footer id="footer" class="footer">
             <div class="copyright">
                 
@@ -286,5 +329,10 @@
                         tpwidget("show");
                     </script>
                     
+        </div>
+</body>
+<script>
+    scroll();
+</script>
 
 </html>
